@@ -17,6 +17,17 @@ Create a folder named 'static' in the app folder.
 Create a new HTML file in the static folder.
 
 ## Step 5:
+Write the HTML code with relevant CSS properties.
+## Step 6:
+Choose the appropriate style and color scheme.
+
+## Step 7:
+Insert the images in their appropriate places.
+
+## Step 8:
+Publish the website in the LocalHost.
+
+# PROGRAM:
 ```
 <!DOCTYPE html>
 <html lang="en">
@@ -34,10 +45,12 @@ Create a new HTML file in the static folder.
         .container{
             position: relative;
             width: 550px;
+            
         }
         img{
             height: 700px;
             width: 600px;
+            border-radius: 10px;
         }
         .tagline{
             position:absolute;
@@ -61,24 +74,46 @@ Create a new HTML file in the static folder.
             letter-spacing: 2px;
             text-shadow: 2px 2px 6px rgba(145, 72, 23, 0.7);
         }
+        
+        .question{
+            position: absolute;
+            top : 200px;
+            left:50px;
+            text-shadow: rgb(241, 78, 8);
+            font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-size: 20px; color: rgb(223, 141, 33);
+            font-size: x-large;
+            font-style: italic;
+            
+
+        }
+        
         .name{
             position: absolute;
-            top:200px;
+            top:490px;
         
-            left:100px;
-            font-size: large;
-            font-family: Georgia, 'Times New Roman', Times, serif;
-            color: rgb(213, 185, 86);
+            left:70px;
+            font-size:large;
+            font-style: italic;
+            font-family: 'Georgia', serif;
+            color: rgb(236, 191, 26);
         }
-        .author{
-            position:absolute;
-            top:400px;
-            left:900px;
+        .authorimg{
+            position: absolute;
+            top:470px;
+            left:380px;
+            
         }
-        img{
+        .authorimg img{
             border-radius: 10px;
-            border:5px solid rgb(111, 80, 13);
-            l
+            border:5px solid rgb(111, 80, 13); 
+        }
+        .last{
+            position: absolute;
+            font-family:'Brush Script MT', cursive;
+            color: rgb(178, 105, 9);
+            top:600px;
+            left:10px;
+            font-size: 30px;
         }
 
         
@@ -89,33 +124,30 @@ Create a new HTML file in the static folder.
         <div class="container">
             <img src="./bgi.jpg" style="width: 100%;">
             <div class="tagline"><p>***Exploring the Soul of Creativity***</p></div>
-            <div style="position: absolute;top: 20px;left: 10px;color: rgb(205, 169, 26);">
+            <div style="position: absolute;top: 20px;left: 10px;color: rgb(230, 157, 11);">
                 <center>
                     <h2 class="title">THE <br>SILENCE BETWEEN <br>STROKES</h2></center>
             </div>
-            <div class="name" >
-                <h3>BY: G.SAKTHIRANI<br>(M.F.A)</h3>
-            <div class="authorimg">
-                <img src="./img.jpg" style="width: 300px; height: 400px;object-fit: cover;">
+            <div class="question"> 
+                <p>"Can silence paint what words never could?"</p>
             </div>
+            <div class="name" >
+                <h3>AUTHOR:<br>RABINDRANATH TAGORE<br></h3>
+            </div>
+            <div class="authorimg">
+                <img src="./rabin.jpg" style="width: 150px; height: 200px;object-fit: cover;">
+            </div>
+            <div class="last">
+                <p>Power of Self Introspection.....</p>
             </div>
 
         </div>
     </div>
-```
+
 </body>
 </html>
-## Step 6:
-Choose the appropriate style and color scheme.
-
-## Step 7:
-Insert the images in their appropriate places.
-
-## Step 8:
-Publish the website in the LocalHost.
-
-# PROGRAM:
+```
 # OUTPUT:
-![Alt text](image.png)
+![Alt text](bookcover.png)
 # RESULT:
 The program for designing book front cover page using HTML and CSS is completed successfully.
